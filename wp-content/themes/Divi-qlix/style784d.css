@@ -1,0 +1,98 @@
+/*
+Theme Name: Qlix
+Theme URI: http://qlixapp.com/
+Description: This is a child theme of Divi.
+Author: Qlix
+Author URI: http://qlixapp.com/
+Template: Divi
+Version: 1.0
+*/
+
+@import url("http://qlixapp.com/wp-content/themes/divi/style.css");
+
+
+.et_pb_blurb h4, 
+.et_pb_blurb h4 a {
+	padding-bottom: 20px;
+}
+
+.et_pb_fullwidth_header .et_pb_fullwidth_header_overlay {
+	background-color: rgba(50,50,50,0.5);
+}
+
+.et-pb-contact-message p {
+	color: #ffffff;
+    font-size: 24px;
+    text-align: right;
+    font-style: italic;
+    padding-top: 150px;
+}
+
+#et_top_search {
+    margin-top: 15px;
+}
+
+/*Menu CTA Button*/
+#et-top-navigation .et_pb_button {
+    margin-top: 0px;
+    font-size: inherit;
+    font-weight: inherit;
+    background-color: #39D1B4;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+#et-top-navigation .et_pb_button.register {
+    background-color: #204056;
+}
+ 
+#et-top-navigation .et_pb_button:after {
+	display: none;
+}
+
+.header-content span {
+    color: #59A1C9;
+}
+
+.header-content span.red {
+    color: #F65A5B;
+}
+
+/* Video Section */
+.et_pb_section.video {
+	padding: 0;
+}
+
+.et_pb_section.video .et_pb_row {
+    width: 80%;
+    padding: 0;
+	margin-left: 10% !important;
+}
+
+
+/* Custom Icons */
+.et_pb_section.arrangement-1,
+.et_pb_fullwidth_header.arrangement-1 .et_pb_fullwidth_header_overlay {
+	background-image: url('http://qlixapp.com/wp-content/themes/Divi-qlix/img/note.png'), url('http://qlixapp.com/wp-content/themes/Divi-qlix/img/book.png'), url('http://qlixapp.com/wp-content/themes/Divi-qlix/img/tablet.png');
+	background-position: 0% 5%, 100% 50%, 0% 80%;
+	background-size: 100px, 150px, 150px;
+	background-repeat: no-repeat;
+}
+
+.et_pb_section.arrangement-2,
+.et_pb_fullwidth_header.arrangement-2 .et_pb_fullwidth_header_overlay {
+	background-image: url('http://qlixapp.com/wp-content/themes/Divi-qlix/img/glasses.png'), url('http://qlixapp.com/wp-content/themes/Divi-qlix/img/keyboard.png'), url('http://qlixapp.com/wp-content/themes/Divi-qlix/img/notebook.png');
+	background-position: 0% 0%, 20% 100%, 100% 75%;
+	background-size: 400px, 600px, 150px;
+	background-repeat: no-repeat;
+}
+
+.et_pb_section.arrangement-3,
+.et_pb_fullwidth_header.arrangement-3 .et_pb_fullwidth_header_overlay {
+	background-image: url('http://qlixapp.com/wp-content/themes/Divi-qlix/img/pen&amp;book.png'), url('http://qlixapp.com/wp-content/themes/Divi-qlix/img/phone.png'), url('http://qlixapp.com/wp-content/themes/Divi-qlix/img/headphones.png');
+	background-position: 10% 0%, 100% 5%, 100% 100%;
+	background-size: 450px, 100px, 250px;
+	background-repeat: no-repeat;
+}
